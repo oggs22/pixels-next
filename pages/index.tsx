@@ -1,8 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import usePixels from '../hooks/usePixels'
 
 export default function Home() {
+
+  const {
+    data
+  } = usePixels()
+
   return (
     <div className={styles.container}>
       <Head>
