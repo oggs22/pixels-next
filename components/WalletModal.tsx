@@ -14,7 +14,7 @@ export default function Dialog(props: Props) {
       return <></>;
     }  
     return (
-        <div className="fixed content-center flex bg-blue-500 h-1/2 w-1/2">
+        <div className="fixed content-center flex bg-blue-500 h-1/2 w-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute left-1/2 top-1/2">
             <div className="relative p-8 bg-white w-full max-w-md m-auto flex-col flex rounded-lg">
                 <span className="absolute top-0 right-0 p-4">            
                     <ButtonWalletModal onClick={() => onClose()}/>
