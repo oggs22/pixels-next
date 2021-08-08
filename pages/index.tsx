@@ -7,12 +7,12 @@ import Navbar from '../components/Navbar'
 
 export default function Home() {
 
-  const {
-    data
-  } = usePixels()
+  // const {
+  //   data
+  // } = usePixels()
 
   return (
-    <div>
+    <div className="h-screen">
       <Head>
         <title>Million Pixels</title>
         <link rel="icon" href="/favicon.ico"></link>
